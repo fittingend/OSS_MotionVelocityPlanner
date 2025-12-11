@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/main_motion_velocity_planner.dir/example/main_motion_velocity_planner.cpp.o CMakeFiles/main_motion_velocity_planner.dir/example/io_utils.cpp.o -o main_motion_velocity_planner  libmotion_velocity_planner.a 
+/usr/bin/c++ CMakeFiles/main_motion_velocity_planner.dir/example/main_motion_velocity_planner.cpp.o CMakeFiles/main_motion_velocity_planner.dir/example/io_utils.cpp.o CMakeFiles/main_motion_velocity_planner.dir/example/jsonl_utils.cpp.o -o main_motion_velocity_planner  libmotion_velocity_planner.a 

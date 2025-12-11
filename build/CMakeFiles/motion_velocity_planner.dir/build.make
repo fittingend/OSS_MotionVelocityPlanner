@@ -125,12 +125,27 @@ CMakeFiles/motion_velocity_planner.dir/src/obstacle_stop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/motion_velocity_planner.dir/src/obstacle_stop.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sujin/Documents/01_GIT/OSS_MotionVelocityPlanner/src/obstacle_stop.cpp -o CMakeFiles/motion_velocity_planner.dir/src/obstacle_stop.cpp.s
 
+CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.o: CMakeFiles/motion_velocity_planner.dir/flags.make
+CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.o: ../src/adapter.cpp
+CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.o: CMakeFiles/motion_velocity_planner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sujin/Documents/01_GIT/OSS_MotionVelocityPlanner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.o -MF CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.o.d -o CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.o -c /home/sujin/Documents/01_GIT/OSS_MotionVelocityPlanner/src/adapter.cpp
+
+CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sujin/Documents/01_GIT/OSS_MotionVelocityPlanner/src/adapter.cpp > CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.i
+
+CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sujin/Documents/01_GIT/OSS_MotionVelocityPlanner/src/adapter.cpp -o CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.s
+
 # Object files for target motion_velocity_planner
 motion_velocity_planner_OBJECTS = \
 "CMakeFiles/motion_velocity_planner.dir/src/planner.cpp.o" \
 "CMakeFiles/motion_velocity_planner.dir/src/longitudinal_utils.cpp.o" \
 "CMakeFiles/motion_velocity_planner.dir/src/smoother.cpp.o" \
-"CMakeFiles/motion_velocity_planner.dir/src/obstacle_stop.cpp.o"
+"CMakeFiles/motion_velocity_planner.dir/src/obstacle_stop.cpp.o" \
+"CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.o"
 
 # External object files for target motion_velocity_planner
 motion_velocity_planner_EXTERNAL_OBJECTS =
@@ -139,9 +154,10 @@ libmotion_velocity_planner.a: CMakeFiles/motion_velocity_planner.dir/src/planner
 libmotion_velocity_planner.a: CMakeFiles/motion_velocity_planner.dir/src/longitudinal_utils.cpp.o
 libmotion_velocity_planner.a: CMakeFiles/motion_velocity_planner.dir/src/smoother.cpp.o
 libmotion_velocity_planner.a: CMakeFiles/motion_velocity_planner.dir/src/obstacle_stop.cpp.o
+libmotion_velocity_planner.a: CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.o
 libmotion_velocity_planner.a: CMakeFiles/motion_velocity_planner.dir/build.make
 libmotion_velocity_planner.a: CMakeFiles/motion_velocity_planner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sujin/Documents/01_GIT/OSS_MotionVelocityPlanner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libmotion_velocity_planner.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sujin/Documents/01_GIT/OSS_MotionVelocityPlanner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libmotion_velocity_planner.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/motion_velocity_planner.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/motion_velocity_planner.dir/link.txt --verbose=$(VERBOSE)
 

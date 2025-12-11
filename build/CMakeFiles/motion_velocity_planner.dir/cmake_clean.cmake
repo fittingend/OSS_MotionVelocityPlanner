@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.o"
+  "CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.o.d"
   "CMakeFiles/motion_velocity_planner.dir/src/longitudinal_utils.cpp.o"
   "CMakeFiles/motion_velocity_planner.dir/src/longitudinal_utils.cpp.o.d"
   "CMakeFiles/motion_velocity_planner.dir/src/obstacle_stop.cpp.o"

@@ -9,6 +9,7 @@ add_library(motion_velocity_planner
   src/longitudinal_utils.cpp
   src/smoother.cpp
   src/obstacle_stop.cpp
+  src/adapter.cpp
 )
 
 target_include_directories(motion_velocity_planner
@@ -21,6 +22,7 @@ target_compile_options(motion_velocity_planner PRIVATE -Wall -Wextra -Wpedantic)
 add_executable(main_motion_velocity_planner
   example/main_motion_velocity_planner.cpp
   example/io_utils.cpp
+  example/jsonl_utils.cpp
 )
 target_include_directories(main_motion_velocity_planner
   PRIVATE

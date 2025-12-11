@@ -211,6 +211,30 @@ example/io_utils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_motion_velocity_planner.dir/build.make CMakeFiles/main_motion_velocity_planner.dir/example/io_utils.cpp.s
 .PHONY : example/io_utils.cpp.s
 
+example/jsonl_utils.o: example/jsonl_utils.cpp.o
+.PHONY : example/jsonl_utils.o
+
+# target to build an object file
+example/jsonl_utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_motion_velocity_planner.dir/build.make CMakeFiles/main_motion_velocity_planner.dir/example/jsonl_utils.cpp.o
+.PHONY : example/jsonl_utils.cpp.o
+
+example/jsonl_utils.i: example/jsonl_utils.cpp.i
+.PHONY : example/jsonl_utils.i
+
+# target to preprocess a source file
+example/jsonl_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_motion_velocity_planner.dir/build.make CMakeFiles/main_motion_velocity_planner.dir/example/jsonl_utils.cpp.i
+.PHONY : example/jsonl_utils.cpp.i
+
+example/jsonl_utils.s: example/jsonl_utils.cpp.s
+.PHONY : example/jsonl_utils.s
+
+# target to generate assembly for a file
+example/jsonl_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_motion_velocity_planner.dir/build.make CMakeFiles/main_motion_velocity_planner.dir/example/jsonl_utils.cpp.s
+.PHONY : example/jsonl_utils.cpp.s
+
 example/main_motion_velocity_planner.o: example/main_motion_velocity_planner.cpp.o
 .PHONY : example/main_motion_velocity_planner.o
 
@@ -234,6 +258,30 @@ example/main_motion_velocity_planner.s: example/main_motion_velocity_planner.cpp
 example/main_motion_velocity_planner.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_motion_velocity_planner.dir/build.make CMakeFiles/main_motion_velocity_planner.dir/example/main_motion_velocity_planner.cpp.s
 .PHONY : example/main_motion_velocity_planner.cpp.s
+
+src/adapter.o: src/adapter.cpp.o
+.PHONY : src/adapter.o
+
+# target to build an object file
+src/adapter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_velocity_planner.dir/build.make CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.o
+.PHONY : src/adapter.cpp.o
+
+src/adapter.i: src/adapter.cpp.i
+.PHONY : src/adapter.i
+
+# target to preprocess a source file
+src/adapter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_velocity_planner.dir/build.make CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.i
+.PHONY : src/adapter.cpp.i
+
+src/adapter.s: src/adapter.cpp.s
+.PHONY : src/adapter.s
+
+# target to generate assembly for a file
+src/adapter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/motion_velocity_planner.dir/build.make CMakeFiles/motion_velocity_planner.dir/src/adapter.cpp.s
+.PHONY : src/adapter.cpp.s
 
 src/longitudinal_utils.o: src/longitudinal_utils.cpp.o
 .PHONY : src/longitudinal_utils.o
@@ -348,9 +396,15 @@ help:
 	@echo "... example/io_utils.o"
 	@echo "... example/io_utils.i"
 	@echo "... example/io_utils.s"
+	@echo "... example/jsonl_utils.o"
+	@echo "... example/jsonl_utils.i"
+	@echo "... example/jsonl_utils.s"
 	@echo "... example/main_motion_velocity_planner.o"
 	@echo "... example/main_motion_velocity_planner.i"
 	@echo "... example/main_motion_velocity_planner.s"
+	@echo "... src/adapter.o"
+	@echo "... src/adapter.i"
+	@echo "... src/adapter.s"
 	@echo "... src/longitudinal_utils.o"
 	@echo "... src/longitudinal_utils.i"
 	@echo "... src/longitudinal_utils.s"
